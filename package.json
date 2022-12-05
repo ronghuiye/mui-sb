@@ -1,14 +1,11 @@
 {
-  "name": "intro-storybook-react-template",
+  "name": "@ronghuiye/mui-sb",
   "version": "0.1.0",
   "description": "Starter template to get up and running quickly with React and Storybook",
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
-  },
-  "bugs": {
-    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
+    "url": "https://github.com/ronghuiye/mui-sb.git"
   },
   "license": "MIT",
   "private": true,
@@ -76,5 +73,9 @@
     "msw-storybook-addon": "^1.6.3",
     "prop-types": "^15.8.1",
     "webpack": "^5.73.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
+
 }
