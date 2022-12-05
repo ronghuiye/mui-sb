@@ -1,6 +1,6 @@
 {
   "name": "@ronghuiye/mui-sb",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Starter template to get up and running quickly with React and Storybook",
   "homepage": ".",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/ronghuiye/mui-sb.git"
   },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
