@@ -1,0 +1,40 @@
+name: Node Dependabot PR auto merge workflow
+
+on:
+  pull_request_target:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    permissions:
+      pull-requrest: write
+      contents: write
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3 
+      
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with: 
+          node-version: 12
+      
+      - name: Install Dependencies
+        run: npm install
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Generated build
+        run: npm run build --if-present
+
+  automerge:
+    needs: build
+    runs-on: ubuntu-latest
+
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - uses: fastify/github-action-merge-dependabot@aa94a7dc146cbf0a4fc27f7e14e359d552fefcb9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: "squash"
