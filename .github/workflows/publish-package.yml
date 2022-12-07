@@ -1,8 +1,12 @@
 name: Publish Node.js npm package to github packages
 
-on:
-  release:
-    types: [created]
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
 
