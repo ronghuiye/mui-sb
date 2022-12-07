@@ -66,7 +66,6 @@
         "react/no-unescaped-entities": "off",
         "react/prop-types":"off",
         "react/require-default-props":"off",
-        "react/sort-prop-types":"error",
         "react/state-in-constructor": "off",
         "react-hooks/exhaustive-deps": "warn",
         "spaced-comment":"off"
