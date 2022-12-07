@@ -1,6 +1,6 @@
 {
   "name": "@ronghuiye/mui-sb",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Starter template to get up and running quickly with React and Storybook",
   "homepage": ".",
   "repository": {
@@ -23,7 +23,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build",
-    "lint": "npx eslint . --ext .js,.ts",
+    "lint": "npx eslint src",
+    "lint-fix": "npx eslint --fix src",
     "init-msw": "msw init public/"
   },
   "browserslist": {
