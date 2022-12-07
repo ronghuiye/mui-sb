@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": ["dom", "esnext"],
+        "importHelpers": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5"
+    },
+    "include": ["packages/**/*","**/*.ts","**/*.tsx"],
+    "exclude": ["dist","node_modules"],
+    "ts-node":{
+        "compilerOptions": {
+            "module":"CommonJS",
+            "resolveJsonModule": true,
+            "noImplicitAny": false
+        }
+    }
+}
