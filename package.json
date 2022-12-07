@@ -20,10 +20,10 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build",
+    "lint": "npx eslint . --ext .js,.ts",
     "init-msw": "msw init public/"
   },
   "browserslist": {
