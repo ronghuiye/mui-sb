@@ -1,8 +1,9 @@
 {
   "packages": ["packages/*"],
   "version": "independent",
-  "npmClient":"npm",
-  "useWorkspaces":true,
+  "npmClient": "npm",
+  "npmClientArgs": ["--_auth=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"],
+  "useWorkspaces": true,
   "command":{
       "version":{
           "exact":true

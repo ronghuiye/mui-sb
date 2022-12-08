@@ -6,5 +6,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
-  }
+  },
+  "gitHead": "1e51ef2335884943ba2081a37bef9a49b5ff4bf1"
 }

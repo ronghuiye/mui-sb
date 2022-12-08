@@ -19,7 +19,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build",
     "bootstrap": "lerna bootstrap",
-    "publish:ci": "lerna publish --yes --no-verify-access",
+    "publish:ci": "lerna publish --yes",
     "lint": "npx eslint packages",
     "lint-fix": "npx eslint --fix packages"
   },
