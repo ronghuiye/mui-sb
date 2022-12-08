@@ -1,11 +1,15 @@
 {
-  "name": "@ronghuiye/mui-sbbutton",
+  "name": "mui-sbbutton",
   "version": "0.0.3",
   "description": "Button Components",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@ronghuiye"
   },
-  "gitHead": "1e51ef2335884943ba2081a37bef9a49b5ff4bf1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronghuiye/mui-sb.git"
+  },
+  "gitHead": "dbf6b1b7a8afec0b560690da8ff0451dd18855d9"
 }

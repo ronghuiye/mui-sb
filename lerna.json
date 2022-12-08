@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
-  "npmClientArgs": ["--_auth=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"],
+  "npmClientArgs": ["--_auth=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"],
   "useWorkspaces": true,
   "command":{
       "version":{
