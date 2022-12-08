@@ -2,7 +2,6 @@
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
-  "npmClientArgs": ["--_auth=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"],
   "useWorkspaces": true,
   "command":{
       "version":{
