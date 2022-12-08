@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   lernaVersion: '6.1.0',
+0 silly argv   '$0': '/Users/ronghuiye/Repos/mui-sb/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v6.1.0
+2 verbose rootPath /Users/ronghuiye/Repos/mui-sb
+3 info versioning independent
+4 error Error: Invalid package name "@ronghuiye/mui-sb/button": name can only contain URL-friendly characters
+4 error     at invalidPackageName (/Users/ronghuiye/Repos/mui-sb/node_modules/npm-package-arg/npa.js:89:15)
+4 error     at Result.setName (/Users/ronghuiye/Repos/mui-sb/node_modules/npm-package-arg/npa.js:124:11)
+4 error     at new Result (/Users/ronghuiye/Repos/mui-sb/node_modules/npm-package-arg/npa.js:114:23)
+4 error     at Function.resolve (/Users/ronghuiye/Repos/mui-sb/node_modules/npm-package-arg/npa.js:61:15)
+4 error     at new Package (/Users/ronghuiye/Repos/mui-sb/node_modules/@lerna/package/index.js:94:26)
+4 error     at /Users/ronghuiye/Repos/mui-sb/node_modules/@lerna/project/index.js:278:26

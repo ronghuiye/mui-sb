@@ -1,8 +1,12 @@
 name: Publish Node.js npm package to github packages
 
-on:
-  release:
-    types: [created]
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
 
@@ -12,9 +16,8 @@ jobs:
       - uses: actions/checkout@v3 
       - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 16
       - run: npm install
-      - run: npm test 
     
   publish-gpr: 
     needs: build 
@@ -26,7 +29,7 @@ jobs:
     - uses: actions/checkout@v3 
     - uses: actions/setup-node@v3
       with: 
-        node-version: 12
+        node-version: 16
         registry-url: https://npm.pkg.github.com/
     - run: npm install 
     - run: npm publish
