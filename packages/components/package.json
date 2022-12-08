@@ -1,6 +1,6 @@
 {
-  "name": "mui-sbbutton",
-  "version": "0.0.7",
+  "name": "@ronghuiye/mui-sbbutton",
+  "version": "0.0.8",
   "description": "Button Components test",
   "license": "MIT",
   "publishConfig": {
@@ -11,5 +11,5 @@
     "type": "git",
     "url": "https://github.com/ronghuiye/mui-sb.git"
   },
-  "gitHead": "eea8710574810d21186c91dd2b24db3c058b8b8c"
+  "gitHead": "fc89844bff596210eff91e734eb977828cf8c6d9"
 }
