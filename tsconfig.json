@@ -6,9 +6,9 @@
         "downlevelIteration": true,
         "esModuleInterop": true,
         "jsx": "react",
-        "lib": ["dom", "esnext"],
+        "lib": ["es6"],
         "importHelpers": true,
-        "module": "esnext",
+        "module": "commonjs",
         "moduleResolution": "node",
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
@@ -20,7 +20,7 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "suppressImplicitAnyIndexErrors": true,
-        "target": "es5"
+        "target": "es6"
     },
     "include": ["packages/**/*","**/*.ts","**/*.tsx"],
     "exclude": ["dist","node_modules"],

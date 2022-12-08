@@ -1,0 +1,10 @@
+{
+  "name": "@ronghuiye/mui-sbbutton",
+  "version": "0.0.1",
+  "description": "Button Components",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
