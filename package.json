@@ -14,10 +14,12 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o docs-build",
+    "build": "npx lerna run build",
+    "test": "npx lerna run test",
+    "start:sb": "start-storybook -p 6006",
+    "builb:sb": "build-storybook -o docs-build",
     "bootstrap": "lerna bootstrap",
-    "publish:ci": "lerna publish --yes",
+    "publish": "lerna publish --yes",
     "lint": "npx eslint packages",
     "lint-fix": "npx eslint --fix packages"
   },
