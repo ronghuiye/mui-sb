@@ -1,6 +1,6 @@
 {
-  "name": "@ronghuiye/mui-sbbutton",
-  "version": "0.0.13",
+  "name": "@ronghuiye/mui-sbswitch",
+  "version": "0.0.1",
   "description": "Button Components test",
   "license": "MIT",
   "publishConfig": {
@@ -11,5 +11,13 @@
     "type": "git",
     "url": "https://github.com/ronghuiye/mui-sb.git"
   },
-  "gitHead": "5954558da34cb80f2ee340ae84670aa2ff59097b"
+  "dependencies": {
+    "@mui/material": "^5.11.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "build": "npx lerna run build",
+    "test": "npx lerna run test"
+  }
 }

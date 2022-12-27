@@ -20,7 +20,9 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "suppressImplicitAnyIndexErrors": true,
-        "target": "es6"
+        "target": "es6",
+        "experimentalDecorators": true,
+        "allowJs": true
     },
     "include": ["packages/**/*","**/*.ts","**/*.tsx"],
     "exclude": ["dist","node_modules"],

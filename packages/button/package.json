@@ -1,0 +1,18 @@
+{
+  "name": "@ronghuiye/mui-sbbutton",
+  "version": "0.0.13",
+  "description": "Button Components test",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronghuiye/mui-sb.git"
+  },
+  "scripts": {
+    "build": "npx lerna run build",
+    "test": "npx lerna run test"
+  }
+}
